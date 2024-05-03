@@ -1,0 +1,7 @@
+For n_clusters=2, the silhouette score is 0.5415858652525395
+For n_clusters=3, the silhouette score is 0.5085084004374336
+For n_clusters=4, the silhouette score is 0.4777820100216849
+For n_clusters=5, the silhouette score is 0.46413788559626845
+For n_clusters=6, the silhouette score is 0.4401752485760133
+For n_clusters=7, the silhouette score is 0.41481670613813887
+For n_clusters=8, the silhouette score is 0.340421341738603
