@@ -24,8 +24,8 @@ for num_clusters in range_n_clusters:
     
     ssd.append(kmeans.inertia_)
     
-# plt.plot(ssd)
-# plt.savefig('ssd.png')
+plt.plot(ssd)
+plt.savefig('ssd.png')
 
 
 range_n_clusters = [2, 3, 4, 5, 6, 7, 8]
@@ -53,18 +53,18 @@ kmeans.labels_
 rfm['Cluster_Id'] = kmeans.labels_
 print(rfm.head)
 
-# boxplpot = sns.boxplot(x='Cluster_Id', y='Monetary', data=rfm)
-# fig = boxplpot.get_figure()
-# fig.savefig('boxplot_1.png')  
+boxplpot = sns.boxplot(x='Cluster_Id', y='Monetary', data=rfm)
+fig = boxplpot.get_figure()
+fig.savefig('boxplot_1.png')  
 
-# boxplot = sns.boxplot(x='Cluster_Id', y='Frequency', data=rfm)
-# fig = boxplot.get_figure()
-# fig.savefig('boxplot_2.png')
+boxplot = sns.boxplot(x='Cluster_Id', y='Frequency', data=rfm)
+fig = boxplot.get_figure()
+fig.savefig('boxplot_2.png')
 
 
-# boxplot = sns.boxplot(x='Cluster_Id', y='Recency', data=rfm)
-# fig = boxplot.get_figure()
-# fig.savefig('boxplot_3.png')
+boxplot = sns.boxplot(x='Cluster_Id', y='Recency', data=rfm)
+fig = boxplot.get_figure()
+fig.savefig('boxplot_3.png')
 
 
 
